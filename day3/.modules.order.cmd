@@ -1,0 +1,1 @@
+cmd_/home/pi/device-drivers/native/day3/modules.order := {   echo /home/pi/device-drivers/native/day3/D3p2_avg.ko;   echo /home/pi/device-drivers/native/day3/D3p2.ko; :; } | awk '!x[$$0]++' - > /home/pi/device-drivers/native/day3/modules.order
